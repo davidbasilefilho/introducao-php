@@ -34,15 +34,11 @@ $page = filter_input(INPUT_GET, 'p');
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <?php
-                    insertNavItem('home', 'Página Inicial', 'bi bi-house-door-fill', true);
-                    ?>
+                    <?php insertNavItem('home', 'Página Inicial', 'bi bi-house-door-fill', true); ?>
                 </li>
 
                 <li class="nav-item">
-                    <?php
-                    insertNavItem('produtos', 'Produtos', 'bi bi-bag-fill', false);
-                    ?>
+                    <?php insertNavItem('produtos', 'Produtos', 'bi bi-bag-fill', false); ?>
                 </li>
             </ul>
         </div>
