@@ -6,5 +6,14 @@
 <link href="css/icons/font/bootstrap-icons.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 <title>
-    <?php echo filter_input(INPUT_GET, 'p') . " - BBK's Hardware" ?>
+    <?php
+    $page = filter_input(INPUT_GET, 'p');
+    if (isset($page) && !empty($page) && $page != 'home') {
+        echo
+        ucwords($page)
+            . " - BBK's Hardware";
+    } else {
+        echo "Página Inicial - BBK's Hardware";
+    }
+    ?>
 </title>

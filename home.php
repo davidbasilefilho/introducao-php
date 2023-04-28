@@ -14,8 +14,8 @@
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
-<div class="row mt-4 container-fluid mx-auto w-75">
-    <div class="col col-md-3 mx-auto">
+<div class="row justify-content-center mx-auto text-center">
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
             <img src="/introducao-php/img/5600.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -27,7 +27,7 @@
     </div>
 
 
-    <div class="col col-md-3 mx-auto">
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
             <img src="/introducao-php/img/7600x.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -39,7 +39,7 @@
     </div>
 
 
-    <div class="col col-md-3 mx-auto">
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
             <img src="/introducao-php/img/7800x3d.jpg" class="card-img-top" alt="...">
             <div class="card-body">

@@ -1,3 +1,32 @@
+<?php
+function insertNavItem($pageId, $name, $iconClass, $isDefault)
+{
+    $navItem = '<a class="nav-link" ';
+
+    $page = filter_input(INPUT_GET, 'p');
+
+    echo (isset($pageId) && !empty($page)) == true;
+
+    if (isset($page) && !empty($page)) {
+        if ($page == $pageId) {
+            $navItem .= 'active';
+        }
+    } else if ($isDefault == true) {
+        $navItem .= 'active';
+    }
+
+    $navItem .= "aria-current='page' href='?p={$pageId}'>";
+
+    $navItem .= "<i class='{$iconClass}'></i> ";
+
+    $navItem .= $name . '</a>';
+
+    echo $navItem;
+}
+
+$page = filter_input(INPUT_GET, 'p');
+?>
+
 <nav class="mb-3 navbar navbar-expand-lg bg-dark-subtle navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">BBK's Hardware</a>
@@ -7,14 +36,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="?p=home"><i class="bi bi-house-door-fill"></i>
-                        Página
-                        Inicial</a>
+                    <?php
+                    insertNavItem('home', 'Página Inicial', 'bi bi-house-door-fill', true);
+                    ?>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="?p=produtos"> <i class="bi bi-bag-fill"></i>
-                        Produtos</a>
+                    <?php
+                    insertNavItem('produtos', 'Produtos', 'bi bi-bag-fill', false);
+                    ?>
                 </li>
             </ul>
         </div>

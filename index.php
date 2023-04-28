@@ -11,7 +11,7 @@
     <?php
     $page = filter_input(INPUT_GET, 'p');
 
-    if (isset($page) || !empty($page)) {
+    if (isset($page) && !empty($page)) {
         include_once $page . '.php';
     } else {
         include_once 'home.php';
