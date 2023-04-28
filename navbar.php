@@ -2,7 +2,6 @@
 function insertNavItem($pageId, $name, $iconClass, $isDefault)
 {
     $navItem = "<a class='nav-link ";
-
     $page = filter_input(INPUT_GET, 'p');
 
     if (isset($page) && !empty($page)) {
@@ -13,12 +12,9 @@ function insertNavItem($pageId, $name, $iconClass, $isDefault)
         $navItem .= "active' ";
     }
 
-    $navItem .= "aria-current='page' href='?p={$pageId}'>";
-
-    $navItem .= "<i class='{$iconClass}'></i> ";
-
-    $navItem .= $name . '</a>';
-
+    $navItem .= "aria-current='page' href='?p={$pageId}'>"
+        . "<i class='{$iconClass}'></i> "
+        . $name . '</a>';
     echo $navItem;
 }
 
