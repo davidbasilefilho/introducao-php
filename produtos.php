@@ -1,12 +1,12 @@
 <nav class="container-fluid" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="?p=home">Página Inicial</a></li>
-        <li class="breadcrumb-item active" aria-current="page">CPUs</li>
+        <li class="breadcrumb-item active" aria-current="page">Produtos</li>
     </ol>
 </nav>
 
 <div class="container-fluid">
-    <h2 class="text-white text-center">CPUs</h2>
+    <h2 class="text-white text-center">Produtos</h2>
 </div>
 
 <div class="row mt-4 mx-auto ">
