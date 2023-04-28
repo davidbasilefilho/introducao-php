@@ -12,7 +12,7 @@
 <div class="row mt-4 mx-auto ">
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/5600.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/5600.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 5 5600</h5>
                 <p class="card-text">O melhor custo-benefício do mercado atualmente!</p>
@@ -23,7 +23,7 @@
 
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/7600x.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/7600x.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7600X</h5>
                 <p class="card-text">O melhor custo-benefício para quem puder gastar um pouco mais.</p>
@@ -34,7 +34,7 @@
 
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/7800x3d.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/7800x3d.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7800X3D</h5>
                 <p class="card-text">A Melhor CPU Para Games!</p>
@@ -47,7 +47,7 @@
 <div class="row mt-4 mx-auto">
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/13600k.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/13600k.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">i5 13600k</h5>
                 <p class="card-text">O melhor custo-benefício para produtividade</p>
@@ -58,7 +58,7 @@
 
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/13700k.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/13700k.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">i7 13700k</h5>
                 <p class="card-text">CPU High-End para produtividade sem quebrar o banco!</p>
@@ -69,7 +69,7 @@
 
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/13900k.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/13900k.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">i9 13900k</h5>
                 <p class="card-text">Melhor CPU para produtividade!</p>
