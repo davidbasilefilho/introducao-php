@@ -17,7 +17,7 @@
 <div class="row mt-4 container-fluid mx-auto w-75">
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/5600.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/5600.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 5 5600</h5>
                 <p class="card-text">O melhor custo-benefício do mercado atualmente!</p>
@@ -29,7 +29,7 @@
 
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/7600x.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/7600x.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7600X</h5>
                 <p class="card-text">O melhor custo-benefício para quem puder gastar um pouco mais.</p>
@@ -41,7 +41,7 @@
 
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
-            <img src="/bbk-hardware/img/7800x3d.jpg" class="card-img-top" alt="...">
+            <img src="/introducao-php/img/7800x3d.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7800X3D</h5>
                 <p class="card-text">A Melhor CPU Para Games!</p>
