@@ -44,7 +44,7 @@
             <img src="img/7800x3d.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7800X3D</h5>
-                <p class="card-text">A Melhor CPU Para Games!</p>
+                <p class="card-text">A Melhor CPU para Games atualmente!</p>
                 <a href="#" class="btn btn-primary">Saiba mais!</a>
             </div>
         </div>
