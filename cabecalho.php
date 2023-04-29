@@ -8,9 +8,9 @@
 <title>
     <?php
     $page = filter_input(INPUT_GET, 'p');
+
     if (isset($page) && !empty($page) && $page != 'home') {
-        echo
-        ucwords($page)
+        echo ucwords($page)
             . " - BBK's Hardware";
     } else {
         echo "Página Inicial - BBK's Hardware";

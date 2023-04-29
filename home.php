@@ -4,48 +4,47 @@
     </ol>
 </nav>
 
-<div class="container-fluid">
-    <h2 class="text-white text-center">Página Inicial</h2>
-</div>
-
 <div class="mt-4 p-5 bg-dark-subtle text-white mx-auto rounded" style="width: 98%">
-    <h1>Novo site!</h1>
+    <h2>Novo site!</h2>
     <p>Esse é o nosso novo site!</p>
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
-<div class="row justify-content-center mx-auto text-center">
-    <div class="mt-4 col-sm-2">
-        <div class="card" style="width: 18rem;">
-            <img src="img/5600.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ryzen 5 5600</h5>
-                <p class="card-text">O melhor custo-benefício do mercado atualmente!</p>
-                <a href="#" class="btn btn-primary">Saiba mais!</a>
+<h2 class="text-center text-white mt-4">Alguns produtos</h2>
+<h4 class="text-center">Veja mais na página <a href="?p=produtos">Produtos</a></h4>
+
+<div class="container text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12 mt-4">
+            <div class="card">
+                <img src="img/5600.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ryzen 5 5600</h5>
+                    <p class="card-text">O melhor custo-benefício para games atualmente!</p>
+                    <a href="#" class="btn btn-primary">Saiba mais!</a>
+                </div>
             </div>
         </div>
-    </div>
 
-
-    <div class="mt-4 col-sm-2">
-        <div class="card" style="width: 18rem;">
-            <img src="img/7600x.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ryzen 7 7600X</h5>
-                <p class="card-text">O melhor custo-benefício para quem puder gastar um pouco mais.</p>
-                <a href="#" class="btn btn-primary">Saiba mais!</a>
+        <div class="col-md-4 col-sm-12 mt-4">
+            <div class="card">
+                <img src="img/7600x.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ryzen 7 7600X</h5>
+                    <p class="card-text">O melhor CPU Mid-Range para games atualmente!</p>
+                    <a href="#" class="btn btn-primary">Saiba mais!</a>
+                </div>
             </div>
         </div>
-    </div>
 
-
-    <div class="mt-4 col-sm-2">
-        <div class="card" style="width: 18rem;">
-            <img src="img/7800x3d.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ryzen 7 7800X3D</h5>
-                <p class="card-text">A Melhor CPU para Games atualmente!</p>
-                <a href="#" class="btn btn-primary">Saiba mais!</a>
+        <div class="col-md-4 col-sm-12 mt-4">
+            <div class="card">
+                <img src="img/7800x3d.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ryzen 7 7800X3D</h5>
+                    <p class="card-text">A melhor CPU para games atualmente!</p>
+                    <a href="#" class="btn btn-primary">Saiba mais!</a>
+                </div>
             </div>
         </div>
     </div>
