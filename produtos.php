@@ -9,10 +9,10 @@
     <h2 class="text-white text-center">Produtos</h2>
 </div>
 
-<div class="row mt-4 mx-auto ">
-    <div class="col col-md-3 mx-auto">
+<div class="row justify-content-center mx-auto text-center">
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
-            <img src="/introducao-php/img/5600.jpg" class="card-img-top" alt="...">
+            <img src="img/5600.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 5 5600</h5>
                 <p class="card-text">O melhor custo-benefício do mercado atualmente!</p>
@@ -21,9 +21,10 @@
         </div>
     </div>
 
-    <div class="col col-md-3 mx-auto">
+
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
-            <img src="/introducao-php/img/7600x.jpg" class="card-img-top" alt="...">
+            <img src="img/7600x.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7600X</h5>
                 <p class="card-text">O melhor custo-benefício para quem puder gastar um pouco mais.</p>
@@ -32,47 +33,50 @@
         </div>
     </div>
 
-    <div class="col col-md-3 mx-auto">
+
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
-            <img src="/introducao-php/img/7800x3d.jpg" class="card-img-top" alt="...">
+            <img src="img/7800x3d.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Ryzen 7 7800X3D</h5>
-                <p class="card-text">A Melhor CPU Para Games!</p>
+                <p class="card-text">A Melhor CPU para Games atualmente!</p>
                 <a href="#" class="btn btn-primary">Saiba mais!</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row mt-4 mx-auto">
-    <div class="col col-md-3 mx-auto">
+<div class="row justify-content-center mx-auto text-center">
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
-            <img src="/introducao-php/img/13600k.jpg" class="card-img-top" alt="...">
+            <img src="img/13600k.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">i5 13600k</h5>
-                <p class="card-text">O melhor custo-benefício para produtividade</p>
+                <h5 class="card-title">i5 13600K</h5>
+                <p class="card-text">O melhor custo-benefício do mercado para criação de conteúdo atualmente!</p>
                 <a href="#" class="btn btn-primary">Saiba mais!</a>
             </div>
         </div>
     </div>
 
-    <div class="col col-md-3 mx-auto">
+
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
-            <img src="/introducao-php/img/13700k.jpg" class="card-img-top" alt="...">
+            <img src="img/13700k.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">i7 13700k</h5>
-                <p class="card-text">CPU High-End para produtividade sem quebrar o banco!</p>
+                <h5 class="card-title">i7 13700K</h5>
+                <p class="card-text">A melhor CPU High-End de criação de conteúdo que não quebra o banco!</p>
                 <a href="#" class="btn btn-primary">Saiba mais!</a>
             </div>
         </div>
     </div>
 
-    <div class="col col-md-3 mx-auto">
+
+    <div class="mt-4 col-sm-2">
         <div class="card" style="width: 18rem;">
-            <img src="/introducao-php/img/13900k.jpg" class="card-img-top" alt="...">
+            <img src="img/13900k.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">i9 13900k</h5>
-                <p class="card-text">Melhor CPU para produtividade!</p>
+                <h5 class="card-title">i9 13900K</h5>
+                <p class="card-text">A melhor CPU de criação de conteúdo e produtividade do mercado!</p>
                 <a href="#" class="btn btn-primary">Saiba mais!</a>
             </div>
         </div>
