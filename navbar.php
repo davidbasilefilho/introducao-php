@@ -4,7 +4,7 @@ function insertNavItem($pageId, $name, $iconClass, $isDefault)
     $navItem = "<a class='nav-link ";
     $page = filter_input(INPUT_GET, 'p');
 
-    if (isset($page) && !empty($page)) {
+    if (isset($page) && !empty($page) && file_exists($page)) {
         if ($page == $pageId) {
             $navItem .= "active' ";
         }
