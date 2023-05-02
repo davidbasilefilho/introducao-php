@@ -9,7 +9,7 @@
     <?php
     $page = filter_input(INPUT_GET, 'p');
 
-    if (isset($page) && !empty($page) && $page != 'home') {
+    if (isset($page) && !empty($page) && file_exists($page . '.php') && $page != 'home') {
         echo ucwords($page)
             . " - BBK's Hardware";
     } else {

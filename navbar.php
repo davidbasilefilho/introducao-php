@@ -36,6 +36,14 @@ $page = filter_input(INPUT_GET, 'p');
                 <li class="nav-item">
                     <?php insertNavItem('produtos', 'Produtos', 'bi bi-bag-fill', false); ?>
                 </li>
+
+                <li class="nav-item">
+                    <?php insertNavItem('contato', 'Contato', 'bi bi-person-fill', false); ?>
+                </li>
+
+                <li class="nav-item">
+                    <?php insertNavItem('sobre', 'Sobre', 'bi bi-info-circle-fill', false); ?>
+                </li>
             </ul>
         </div>
     </div>
