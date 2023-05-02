@@ -9,6 +9,12 @@
     <h2 class="text-white text-center">Produtos</h2>
 </div>
 
+<div class="container-fluid">
+    <p class="text-center">
+        Todos os nossos produtos são processadores de alta qualidade! Não vendemos nada que não recomendamos!
+    </p>
+</div>
+
 <div class="container text-center">
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 mt-4">
