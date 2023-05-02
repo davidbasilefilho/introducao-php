@@ -10,9 +10,14 @@
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
-<h2 class="text-center text-white mt-4">Alguns produtos</h2>
-<h4 class="text-center">Veja mais na página <a href="?p=produtos">Produtos</a></h4>
+<h3 class="text-center text-white mt-4">Alguns produtos</h4>
+<h5 class="text-center">Veja mais na página <a href="?p=produtos">Produtos</a></h5>
 
+<div class="container text-center mt-4">
+<div class="alert alert-warning" role="alert">
+    Promoções Limitadas!
+</div>
+</div>
 <div class="container text-center">
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 mt-4">
