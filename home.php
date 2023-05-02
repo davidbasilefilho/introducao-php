@@ -5,19 +5,26 @@
 </nav>
 
 <div class="mt-4 p-5 bg-dark-subtle text-white mx-auto rounded" style="width: 98%">
-    <h2>Novo site!</h2>
+    <h3>Novo site!</h3>
     <p>Esse é o nosso novo site!</p>
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
 <h3 class="text-center text-white mt-4">Alguns produtos</h4>
-<h5 class="text-center">Veja mais na página <a href="?p=produtos">Produtos</a></h5>
+<p class="text-center">Veja mais na página <a href="?p=produtos">Produtos</a></p>
 
 <div class="container text-center mt-4">
 <div class="alert alert-warning" role="alert">
     Promoções Limitadas!
 </div>
 </div>
+
+<div class="conteiner-fluid">
+<p class="text-center">
+    Aproveite nossos processadores de alta performance! Nossa equipe apenas seleciona processadores de qualidade para sua jogatina ou trabalho.
+</p>
+</div>
+
 <div class="container text-center">
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 mt-4">
