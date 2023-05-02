@@ -10,23 +10,24 @@
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
-<h3 class="text-center text-white mt-4">Alguns produtos</h4>
-<p class="text-center">Veja mais na página <a href="?p=produtos">Produtos</a></p>
+
+<h3 class="text-center text-white mt-4 mb-3">Página Inicial</h3>
+<p class="text-center">Aqui estão alguns produtos! Veja mais na página <a href="?p=produtos">Produtos</a></p>
 
 <div class="container text-center mt-4">
-<div class="alert alert-warning" role="alert">
-    Promoções Limitadas!
-</div>
+    <div class="alert alert-warning" role="alert">
+        Promoções Limitadas!
+    </div>
 </div>
 
 <div class="conteiner-fluid">
-<p class="text-center">
-    Aproveite nossos processadores de alta performance! Nossa equipe apenas seleciona processadores de qualidade para sua jogatina ou trabalho.
-</p>
+    <p class="text-center">
+        Aproveite nossos processadores de alta performance! Nossa equipe apenas seleciona processadores de qualidade para sua jogatina ou trabalho.
+    </p>
 </div>
 
 <div class="container text-center">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mb-4">
         <div class="col-md-4 col-sm-12 mt-4">
             <div class="card">
                 <img src="img/5600.jpg" class="card-img-top" alt="...">

@@ -6,7 +6,7 @@
 </nav>
 
 <div class="container-fluid">
-    <h2 class="text-white text-center">Produtos</h2>
+    <h3 class="text-white text-center">Produtos</h3>
 </div>
 
 <div class="container-fluid">
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mb-4">
         <div class="col-md-4 col-sm-12 mt-4">
             <div class="card">
                 <img src="img/13600k.jpg" class="card-img-top" alt="...">
