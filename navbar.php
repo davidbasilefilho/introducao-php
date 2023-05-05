@@ -15,6 +15,7 @@ function insertNavItem($pageId, $name, $iconClass, $isDefault)
     $navItem .= "aria-current='page' href='?p={$pageId}'>"
         . "<i class='{$iconClass}'></i> "
         . $name . '</a>';
+
     echo $navItem;
 }
 

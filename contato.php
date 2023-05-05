@@ -9,6 +9,36 @@
     <h3 class="text-white text-center">Contato</h3>
 </div>
 
+<div class="container-fluid">
+    <p class="text-center">Fale conosco! Preencha o formulário abaixo e entraremos em contato com você!</p>
+</div>
+
+<div class="container-fluid mt-4 w-75 mx-auto bg-dark-subtle rounded p-4">
+    <form method="post">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">E-mail</label>
+            <input type="email" name="email" required class="form-control" id="exampleInputEmail1" placeholder="name@domain.com" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartilharemos o seu e-mail para ninguém.</div>
+        </div>
+
+        <div class="mb-3 form-outline">
+            <label class="form-label" for="typePhone">Número de Telefone</label>
+            <input type="tel" name="telephone" required id="typePhone" class="form-control" placeholder="+XX XX XXXXX-XXXX" />
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" required class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Concordo com nossos <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">termos de privacidade.</a></label>
+        </div>
+
+        <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<div class="text-center mt-5 text-white">
+    <h2>Nosso suporte é o melhor!</h2>
+</div>
+
 <div id="carouselExample" class="carousel slide mt-4 mx-auto mb-4" style="width: 60%;">
     <div class="carousel-inner rounded">
         <div class="carousel-item active">
@@ -29,30 +59,4 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-</div>
-
-<div class="container-fluid">
-    <p class="text-center">Fale conosco! Preencha o formulário abaixo e entraremos em contato com você!</p>
-</div>
-
-<div class="container-fluid mt-4 w-75 mx-auto bg-dark-subtle rounded p-4">
-    <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">E-mail</label>
-            <input type="email" required class="form-control" id="exampleInputEmail1" placeholder="name@domain.com" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Nunca compartilharemos o seu e-mail para ninguém.</div>
-        </div>
-
-        <div class="mb-3 form-outline">
-            <label class="form-label" for="typePhone">Número de Telefone</label>
-            <input type="tel" required id="typePhone" class="form-control" placeholder="+XX XXXXX-XXXX" />
-        </div>
-
-        <div class="mb-3 form-check">
-            <input type="checkbox" required class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Concordo com nossos <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">termos de privacidade.</a></label>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
 </div>

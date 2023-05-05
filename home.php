@@ -27,7 +27,7 @@
 </div>
 
 <div class="container text-center">
-    <div class="row justify-content-center mb-4">
+    <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 mt-4">
             <div class="card">
                 <img src="img/5600.jpg" class="card-img-top" alt="...">

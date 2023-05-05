@@ -16,7 +16,7 @@
   </p>
 </div>
 
-<div id="carouselExample" class="carousel slide w-75 mx-auto mb-4 mt-4">
+<div id="carouselExample" class="carousel slide w-75 mx-auto mt-4">
   <div class="carousel-inner rounded">
     <div class="carousel-item active">
       <img src="img/amd-roadmap.png" class="d-block w-100" alt="...">
