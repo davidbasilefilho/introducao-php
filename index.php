@@ -2,7 +2,7 @@
 <html lang="pt-BR" data-bs-theme="dark">
 
 <head>
-    <?php include_once 'cabecalho.php'; ?>
+    <?php include_once 'head.php'; ?>
 </head>
 
 <body>
