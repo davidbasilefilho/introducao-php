@@ -13,7 +13,7 @@
 
     if (isset($page) && !empty($page) && file_exists("{$page}.php")) {
         include_once "{$page}.php";
-    } else if (isset($page) && !empty($page) && !file_exists($page)) {
+    } else if (isset($page) && !empty($page)) {
         include_once "404.php";
     } else {
         include_once "home.php";
