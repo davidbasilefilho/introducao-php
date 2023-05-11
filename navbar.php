@@ -4,15 +4,17 @@ function insertNavItem($pageId, $name, $iconClass, $isDefault)
     $navItem = "<a class='nav-link ";
     $page = filter_input(INPUT_GET, 'p');
 
-    if (isset($page) && !empty($page) && file_exists($page . '.php')) {
+    if (isset($page) && !empty($page) && file_exists("{$page}.php")) {
         if ($page == $pageId) {
             $navItem .= "active' ";
         }
+    } else if (isset($page) && !empty($page)) {
+        $navItem .= "' ";
     } else if ($isDefault == true) {
         $navItem .= "active' ";
     }
 
-    $navItem .= "aria-current='page' href='?p={$pageId}'>"
+    $navItem .= "aria-current='page' href='index.php?p={$pageId}'>"
         . "<i class='{$iconClass}'></i> "
         . $name . '</a>';
 

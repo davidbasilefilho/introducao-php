@@ -21,7 +21,7 @@
 </div>
 
 <div class="conteiner-fluid">
-    <p class="text-center">
+    <p class="text-center px-5 py-3">
         Aproveite nossos processadores de alta performance! Nossa equipe apenas seleciona processadores de qualidade para sua jogatina ou trabalho.
     </p>
 </div>
