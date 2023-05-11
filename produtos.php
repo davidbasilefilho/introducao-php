@@ -1,6 +1,6 @@
 <nav class="container-fluid" aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="?p=home">Página Inicial</a></li>
+        <li class="breadcrumb-item"><a href="index.php?p=home">Página Inicial</a></li>
         <li class="breadcrumb-item active" aria-current="page">Produtos</li>
     </ol>
 </nav>
