@@ -5,15 +5,13 @@
     </ol>
 </nav>
 
-<div class="container-fluid">
-    <h3 class="text-white text-center">Contato</h3>
-</div>
-
-<div class="container-fluid">
-    <p class="text-center">Fale conosco! Preencha o formulário abaixo e entraremos em contato com você!</p>
-</div>
-
 <div class="container-fluid mt-4 w-75 mx-auto bg-dark-subtle rounded p-4">
+    <div class="container-fluid rounded bg-dark p-1 mb-3">
+        <h3 class="text-white text-center mt-2">Contato</h3>
+
+        <p class="text-center px-2">Fale conosco! Preencha o formulário abaixo e entraremos em contato com você!</p>
+    </div>
+
     <form method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">E-mail</label>
