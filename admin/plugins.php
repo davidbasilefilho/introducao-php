@@ -1,0 +1,1 @@
+<script src="../js/bootstrap.bundle.min.js?v=<?php echo time(); ?>"></script>
