@@ -15,7 +15,7 @@ function insertNavItem($pageId, $name, $iconClass, $isDefault)
     }
 
     $navItem .= "aria-current='page' href='index.php?p={$pageId}'>"
-        . "<i class='{$iconClass}'></i> "
+        . "<i class='{$iconClass} me-2'></i>"
         . $name . '</a>';
 
     echo $navItem;
@@ -25,12 +25,10 @@ $page = filter_input(INPUT_GET, 'p');
 ?>
 
 <nav class="mb-3 navbar navbar-expand-lg bg-dark-subtle navbar-dark">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand" href="?p=home">BBK's Hardware</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">

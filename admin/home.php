@@ -4,15 +4,15 @@
     </ol>
 </nav>
 
-<div class="mt-4 p-5 bg-dark-subtle text-white mx-auto rounded" style="width: 98%">
+<div class="mt-4 p-5 bg-dark-subtle text-white mx-3 rounded">
     <h3>Novo site!</h3>
     <p>Esse é o nosso novo site!</p>
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
 
-<div class="card shadow bg-dark-subtle border-dark d-inline-block mx-auto mt-4 p-3">
-    <div class="card container border-dark">
+<div class="card shadow bg-dark-subtle d-inline-block border-0 mx-3 mt-4 p-3">
+    <div class="card container border-0">
         <h3 class="text-center text-white my-3">Página Inicial</h3>
         <p class="text-center px-3">
             Aqui estão alguns produtos! Veja mais na página <a href="index.php?p=produtos">Produtos</a>.
