@@ -4,15 +4,15 @@
     </ol>
 </nav>
 
-<div class="mt-4 p-5 bg-dark-subtle text-white mx-3 rounded">
+<div class="mt-4 p-5 bg-dark-subtle text-white rounded">
     <h3>Novo site!</h3>
     <p>Esse é o nosso novo site!</p>
     <a class="btn btn-primary" href="#" role="button">Saiba mais!</a>
 </div>
 
 
-<div class="card shadow bg-dark-subtle d-inline-block border-0 mx-3 mt-4 p-3">
-    <div class="card container border-0">
+<div class="card shadow bg-dark-subtle d-inline-block border-0 mt-4 p-3 py-4">
+    <div class="card container border-0 w-auto mx-2">
         <h3 class="text-center text-white my-3">Página Inicial</h3>
         <p class="text-center px-3">
             Aqui estão alguns produtos! Veja mais na página <a href="index.php?p=produtos">Produtos</a>.
@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <div class="container mb-3 text-center">
+    <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-md-4 col-sm-12">
                 <div class="card border border-dark-subtle">

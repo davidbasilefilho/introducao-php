@@ -8,7 +8,7 @@
 <body>
     <?php include_once 'navbar.php'; ?>
 
-    <div class="my-4">
+    <div class="container my-4">
         <?php
         $page = filter_input(INPUT_GET, 'p');
 

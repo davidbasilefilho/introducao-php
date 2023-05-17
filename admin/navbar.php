@@ -24,33 +24,27 @@ function insertNavItem($pageId, $name, $iconClass, $isDefault)
 $page = filter_input(INPUT_GET, 'p');
 ?>
 
-<nav class="mb-3 navbar navbar-expand-lg bg-dark-subtle navbar-dark">
+<nav class="navbar navbar-expand-lg bg-dark-subtle">
     <div class="container">
-        <a class="navbar-brand" href="?p=home">BBK's Hardware</a>
+        <a class="navbar-brand" href="index.php?p=home">BBK's Hardware</a>
 
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <?php insertNavItem('home', 'Página Inicial', 'bi bi-house-door-fill', true); ?>
-                </li>
+                <?php insertNavItem('home', 'Página Inicial', 'bi bi-house-door', true); ?>
 
-                <li class="nav-item">
-                    <?php insertNavItem('categoria/consultar', 'Categoria', 'bi bi-tags-fill', false); ?>
-                </li>
+                <?php insertNavItem('produtos', 'Produtos', 'bi bi-bag', false); ?>
 
-                <li class="nav-item">
-                    <?php insertNavItem('produtos', 'Produtos', 'bi bi-bag-fill', false); ?>
-                </li>
+                <?php insertNavItem('contato', 'Contato', 'bi bi-person', false); ?>
 
-                <li class="nav-item">
-                    <?php insertNavItem('contato', 'Contato', 'bi bi-person-fill', false); ?>
-                </li>
+                <?php insertNavItem('area/consultar', 'Área', 'bi bi-globe', false); ?>
 
-                <li class="nav-item">
-                    <?php insertNavItem('sobre', 'Sobre', 'bi bi-info-circle-fill', false); ?>
-                </li>
+                <?php insertNavItem('curso/consultar', 'Curso', 'bi bi-mortarboard', false); ?>
+
+                <?php insertNavItem('sobre', 'Sobre', 'bi bi-info-circle', false); ?>
             </ul>
         </div>
     </div>
