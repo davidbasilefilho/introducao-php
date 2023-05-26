@@ -45,6 +45,8 @@ $page = filter_input(INPUT_GET, 'p');
                 <?php insertNavItem('curso/consultar', 'Curso', 'bi bi-mortarboard', false); ?>
 
                 <?php insertNavItem('sobre', 'Sobre', 'bi bi-info-circle', false); ?>
+
+                <?php insertNavItem('logout', "Sair", "bi bi-box-arrow-left", false); ?>
             </ul>
         </div>
     </div>

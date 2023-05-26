@@ -1,3 +1,13 @@
+<?php
+date_default_timezone_set("America/Sao_Paulo");
+
+(!isset($_SESSION) ? session_start() : "");
+
+if ($_SESSION["access"] != "access_granted") {
+    header("location:logout.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR" data-bs-theme="dark">
 
